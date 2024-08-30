@@ -1,0 +1,55 @@
+{
+"SettingsVersion": 1.2,
+"SimMode":"ComputerVision",
+  "OriginGeopoint": {
+    "Latitude": 0,
+    "Longitude": 0,
+    "Altitude": 0
+  },
+"SegmentationSettings": {
+"InitMethod": "None",
+"MeshNamingMethod": "",
+"OverrideExisting": true
+},
+ "SubWindows": [
+  {"WindowID": 0, "ImageType": 0, "CameraName": "3", "Visible": true},
+  {"WindowID": 1, "ImageType": 5, "CameraName": "3", "Visible": true}
+  ],
+"CameraDefaults": {
+    "CaptureSettings": [
+      {
+        "ImageType": 0,
+        "Width": 1024,
+        "Height": 1024,
+        "FOV_Degrees": 90,
+        "AutoExposureSpeed": 100,
+        "AutoExposureBias": 0,
+        "AutoExposureMaxBrightness": 0.64,
+        "AutoExposureMinBrightness": 0.03,
+        "MotionBlurAmount": 0
+      },
+      {
+        "ImageType": 5,
+        "Width": 1024,
+        "Height": 1024,
+        "FOV_Degrees": 90,
+        "AutoExposureSpeed": 100,
+        "AutoExposureBias": 0,
+        "AutoExposureMaxBrightness": 0.64,
+        "AutoExposureMinBrightness": 0.03,
+        "MotionBlurAmount": 0
+      }
+
+    ]
+},
+"Recording": {
+"RecordOnMove": true,
+"RecordInterval": 0.01,
+"Cameras": [
+{ "CameraName": "0", "ImageType": 0, "PixelsAsFloat": false, "Compress": false },
+{ "CameraName": "1", "ImageType": 0, "PixelsAsFloat": false, "Compress": false },
+{ "CameraName": "2", "ImageType": 0, "PixelsAsFloat": false, "Compress": false },
+{ "CameraName": "3", "ImageType": 0, "PixelsAsFloat": false, "Compress": false }
+]
+}
+}
